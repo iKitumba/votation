@@ -1,0 +1,67 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String     @id @default(uuid())
+  name         String
+  phone_number String     @unique
+  email        String?    @unique
+  password     String
+  created_at   DateTime   @default(now())
+  updated_at   DateTime   @updatedAt
+  elections    Election[]
+  votes        Votes[]
+
+  @@map("users")
+}
+
+model Election {
+  id          String      @id @default(uuid())
+  title       String      @unique
+  description String
+  start_date  DateTime
+  end_date    DateTime
+  creator     User        @relation(fields: [creator_id], references: [id])
+  created_at  DateTime    @default(now())
+  updated_at  DateTime    @updatedAt
+  creator_id  String
+  candidates  Candidate[]
+  votes       Votes[]
+
+  @@map("elections")
+}
+
+model Candidate {
+  id          String   @id @default(uuid())
+  name        String
+  avatar_url  String
+  occupation  String?
+  proposal    String
+  election    Election @relation(fields: [election_id], references: [id])
+  election_id String
+  votes       Votes[]
+
+  @@map("candidates")
+}
+
+model Votes {
+  id             String    @id @default(uuid())
+  vote_timestamp DateTime  @default(now())
+  user           User      @relation(fields: [user_id], references: [id])
+  candidate      Candidate @relation(fields: [candidate_id], references: [id])
+  election       Election  @relation(fields: [election_id], references: [id])
+  election_id    String
+  user_id        String
+  candidate_id   String
+
+  @@map("votes")
+}

@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE `votes` MODIFY `vote_timestamp` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3);
