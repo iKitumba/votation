@@ -1,0 +1,115 @@
+.createContainer {
+  margin: 32px 64px;
+}
+
+.createMainTitle {
+  font-size: 32x;
+  font-weight: bold;
+  color: #00c39a;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.createForms {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 24px;
+  gap: 72px;
+}
+
+.createFormFirst {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.createFormSecond {
+  flex: 1.4;
+  display: flex;
+  flex-direction: column;
+}
+
+.createFormTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #00c39a;
+}
+
+.inputLabel {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.inputLabelName {
+  font-size: 16px;
+  color: #aed8cf;
+}
+
+.input {
+  height: 44px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  background-color: #1b1f24;
+  padding: 0 24px;
+  color: #aed8cf;
+  font-size: 16px;
+}
+
+.createFormFirstDescription {
+  height: 132px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  background-color: #1b1f24;
+  resize: vertical;
+  padding: 12px 24px;
+  color: #aed8cf;
+  font-size: 16px;
+}
+
+.input::placeholder,
+.createFormFirstDescription::placeholder {
+  font-size: 16px;
+  color: #aed8cf;
+  opacity: 0.3;
+}
+
+.inputsDateContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.submitButton {
+  padding: 10px 51px;
+  border-radius: 22px;
+  border: none;
+  background: #00c39a;
+  color: #14161a;
+  font-size: 18px;
+  font-weight: bold;
+  align-self: flex-end;
+  margin-top: 24px;
+}
+
+.createFormFields {
+  flex: 1;
+  display: flex;
+  margin-top: 24px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.createFormLeft {
+  flex: 1.7;
+  display: flex;
+  flex-direction: column;
+
+  gap: 18px;
+}
+.createFormRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}

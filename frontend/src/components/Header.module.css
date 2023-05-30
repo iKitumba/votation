@@ -1,0 +1,39 @@
+.header {
+  background-color: #1b1f24;
+  padding: 0 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #aed8cf;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.menuOptionLink {
+  padding: 1rem 3rem;
+  font-size: 18px;
+  color: #00c39a;
+}
+
+.signInButton {
+  padding: 10px 51px;
+  border-radius: 22px;
+  border: none;
+  background: #00c39a;
+  color: #14161a;
+  font-size: 18px;
+  font-weight: bold;
+}

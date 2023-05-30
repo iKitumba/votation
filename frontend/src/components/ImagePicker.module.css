@@ -1,0 +1,17 @@
+.imagePickerContainer {
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  width: 180px;
+  height: 180px;
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  background-color: #1b1f24;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.imagePickerInput {
+  width: 0;
+  height: 0;
+}

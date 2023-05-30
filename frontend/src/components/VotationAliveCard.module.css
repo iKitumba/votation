@@ -1,0 +1,55 @@
+.votationAliveCard {
+  flex: 1 1 320px;
+  height: 204px;
+  background: #1b1f24;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.votationAliveCardTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #aed8cf;
+}
+
+.votationAliveCardDec {
+  font-size: 16px;
+  line-height: 22.4px;
+  color: #aed8cf;
+}
+
+.votationAliveCardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.votationAliveCardFooterCandidates {
+  display: flex;
+}
+
+.votationAliveCardFooterCandidate {
+  height: 42px;
+  width: 42px;
+  border-radius: 42px;
+  background-color: chartreuse;
+  border: 2px solid #1b1f24;
+}
+
+.votationAliveCardFooterCandidate:not(:nth-child(1)) {
+  margin-left: -20px;
+}
+
+.startDate {
+  font-size: 16px;
+  color: #e66565;
+}
+
+.endDate {
+  font-size: 16px;
+  color: #00c39a;
+}

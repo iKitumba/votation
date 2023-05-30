@@ -1,0 +1,149 @@
+.votationContainer {
+  margin: 64px;
+  display: flex;
+  gap: 40px;
+}
+
+.votationLeft {
+  flex: 1;
+}
+
+.votationRight {
+  flex: 1;
+  margin-top: 64px;
+}
+
+.votationTitle {
+  font-size: 32px;
+  margin-bottom: 24px;
+  font-weight: bold;
+  color: #00c39a;
+}
+
+.votationRightTitle {
+  color: #00c39a;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.votationCardInfo {
+  min-height: 418px;
+  background: #1b1f24;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  padding: 52px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.votationCardInfoDescription {
+  font-size: 18px;
+  color: #aed8cf;
+  line-height: 30px;
+}
+
+.votationCardInfoTime {
+}
+
+.votationCardInfoTimeKey {
+  font-size: 16px;
+  color: #aed8cf;
+  opacity: 0.4;
+}
+
+.votationCardInfoTotal {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.votationCardInfoTimeValue {
+  font-size: 16px;
+  color: #aed8cf;
+  font-weight: bold;
+}
+
+.votationCardInfoTotalKey {
+  font-size: 16px;
+  color: #aed8cf;
+  font-weight: bold;
+}
+
+.votationCardInfoTotalValue {
+  font-size: 28px;
+  color: #00c39a;
+  font-weight: bold;
+}
+
+.votationCardInfoAlert {
+  font-size: 12px;
+  display: block;
+  color: #e66565;
+}
+
+.votationCandidateContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.votationCandidate {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.11);
+}
+
+.votationCandidateHeader {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.votationCandidate:nth-child(1) .votationCandidateHeader {
+  margin-top: 24px;
+}
+
+.votationCandidateHeaderPicture {
+  width: 65px;
+  height: 65px;
+  border-radius: 65px;
+  background-color: gold;
+}
+
+.votationCandidateHeaderInfo {
+  display: flex;
+  flex-direction: column;
+  /* gap: 6px; */
+}
+
+.votationCandidateName {
+  font-size: 20px;
+  font-weight: bold;
+  color: #aed8cf;
+}
+
+.votationCandidateOccupation {
+  font-size: 16px;
+  color: #aed8cf;
+  opacity: 0.5;
+}
+
+.votationCandidateProposal {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  gap: 12px;
+}
+
+.votationCandidateProposalTitle {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #e66565;
+}
+
+.votationCandidateProposalContent {
+  font-size: 16px;
+  line-height: 22.4px;
+}

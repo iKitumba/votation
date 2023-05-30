@@ -1,0 +1,165 @@
+.votationContainer {
+  margin: 0px 64px;
+}
+
+.votationMainTitle {
+  font-size: 32px;
+  font-weight: bold;
+  color: #00c39a;
+  text-align: center;
+  margin: 64px 64px 32px 64px;
+}
+
+.votationAliveContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.votationAliveTitle {
+  font-size: 28px;
+  font-weight: bold;
+  color: #00c39a;
+}
+
+.votationAliveCardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.votationPassedCard {
+  min-height: 350px;
+  width: 80vw;
+  background: #1b1f24;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 36px;
+}
+
+.votationPassedCardLeft {
+  flex: 1;
+}
+
+.votationPassedCardTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #aed8cf;
+  display: block;
+}
+
+.votationPassedCardCandidatesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 24px 24px 24px 0px;
+}
+
+.votationPassedCardCandidate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.votationPassedCardCandidatePicture1 {
+  width: 156px;
+  height: 156px;
+  border-radius: 156px;
+  background: crimson;
+}
+
+.votationPassedCardCandidateName1 {
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #00c39a;
+  border-radius: 50px;
+  border: none;
+  color: #181b1f;
+}
+
+.votationPassedCardCandidatePicture2 {
+  width: 130px;
+  height: 130px;
+  border-radius: 130px;
+  background: crimson;
+}
+
+.votationPassedCardCandidateName2 {
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #00c39a;
+  border-radius: 50px;
+  border: none;
+  opacity: 0.7;
+  color: #181b1f;
+}
+
+.votationPassedCardCandidatePicture3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background: crimson;
+}
+
+.votationPassedCardCandidateName3 {
+  padding: 5px 10px;
+  font-size: 8px;
+  font-weight: bold;
+  background-color: #00c39a;
+  border-radius: 50px;
+  opacity: 0.4;
+  border: none;
+  color: #181b1f;
+}
+
+.votationPassedCardRight {
+  width: 290px;
+  padding: 0px 24px;
+  border-left: 2px solid rgba(255, 255, 255, 0.11);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.votationPassedCardTime {
+  font-size: 12px;
+  font-weight: bold;
+  color: #aed8cf;
+}
+
+.votationPassedCardTimeDate {
+  color: #e66565;
+}
+
+.votationPassedCardPositionContainer {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.votationPassedCardPosition {
+  font-size: 16px;
+  font-weight: bold;
+  color: #aed8cf;
+  line-height: 22.4px;
+}
+
+.votationPassedCardPositionPercentage {
+  color: #00c39a;
+}
+
+.votationPassedCardTotal {
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 0.4;
+  color: #00c39a;
+}

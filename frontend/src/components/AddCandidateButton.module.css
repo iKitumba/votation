@@ -1,0 +1,13 @@
+.addCandidateButton {
+  width: 44px;
+  height: 44px;
+  border-radius: 44px;
+  border: none;
+  background-color: #00c39a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-top: 44px;
+}

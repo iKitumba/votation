@@ -1,0 +1,14 @@
+.socialMediaTitle {
+  font-size: 68px;
+  font-weight: bold;
+  color: #14161a;
+  text-align: center;
+  margin: 200px 0px 100px;
+}
+
+.socialLinks {
+  display: flex;
+  padding: 0 64px;
+  align-items: center;
+  justify-content: space-between;
+}
