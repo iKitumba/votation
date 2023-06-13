@@ -80,3 +80,42 @@
   font-weight: bold;
   color: #14161a;
 }
+
+@media (max-width: 1050px) {
+  .pilarText {
+    font-size: 1rem;
+    line-height: 22.4px;
+  }
+}
+
+@media (max-width: 860px) {
+  .bannerSectionRightImage {
+    display: none;
+  }
+
+  .pilarContainer {
+    width: 80vw;
+  }
+
+  .bannerSection {
+    padding: 80px 12px;
+  }
+
+  .pilarText {
+    padding: 12px;
+    /* padding-left: 12px; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+  }
+}
+
+@media (max-width: 470px) {
+  .pilarContainer {
+    width: 90vw;
+  }
+
+  .pilarLugar {
+    display: none;
+  }
+}

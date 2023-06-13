@@ -163,3 +163,9 @@
   opacity: 0.4;
   color: #00c39a;
 }
+
+@media (max-width: 820px) {
+  .votationContainer {
+    margin: 0px 12px;
+  }
+}

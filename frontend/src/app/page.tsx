@@ -15,7 +15,11 @@ export default function Home() {
             </p>
           </div>
 
-          <img src="/vote-illustration.svg" alt="Votação" />
+          <img
+            src="/vote-illustration.svg"
+            className={styles.bannerSectionRightImage}
+            alt="Votação"
+          />
         </article>
 
         <section className={styles.pilaresContainer}>

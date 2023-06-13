@@ -148,3 +148,23 @@
   font-size: 16px;
   line-height: 22.4px;
 }
+
+@media (max-width: 920px) {
+  .votationContainer {
+    margin: 64px;
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 820px) {
+  .votationContainer {
+    margin: 64px 12px;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .votationCardInfo {
+    padding: 24px;
+  }
+}

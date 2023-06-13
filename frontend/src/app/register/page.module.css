@@ -1,33 +1,8 @@
-.createContainer {
-  margin: 32px 64px;
-}
-
-.createMainTitle {
-  font-size: 32x;
-  font-weight: bold;
-  color: #00c39a;
-  text-align: center;
-  text-decoration: underline;
-}
-
-.createForms {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 24px;
-  gap: 72px;
-}
-
-.createFormFirst {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-}
-
-.createFormSecond {
-  flex: 1.4;
-  display: flex;
-  flex-direction: column;
+.loginForm {
+  width: 460px;
+  margin: 4rem auto 0 auto;
+  max-width: 100%;
+  padding: 1rem;
 }
 
 .createFormTitle {
@@ -75,12 +50,6 @@
   opacity: 0.3;
 }
 
-.inputsDateContainer {
-  display: flex;
-  justify-content: space-between;
-  gap: 32px;
-}
-
 .submitButton {
   padding: 10px 51px;
   border-radius: 22px;
@@ -96,7 +65,6 @@
 .createFormFields {
   flex: 1;
   display: flex;
-  gap: 24px;
   margin-top: 24px;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -106,37 +74,5 @@
   flex: 1.7;
   display: flex;
   flex-direction: column;
-
   gap: 18px;
-}
-.createFormRight {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-@media (max-width: 820px) {
-  .createContainer {
-    margin: 32px 12px;
-  }
-
-  .createForms {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 660px) {
-  .createFormFields {
-    flex-direction: column;
-  }
-
-  .createFormRight {
-    flex: 1;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .inputsDateContainer {
-    flex-direction: column;
-  }
 }
